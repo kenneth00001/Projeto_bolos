@@ -5,7 +5,7 @@ if((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == tru
     unset($_SESSION['login']);
     header('location: index.php');
 }
-$logado = $_SESSION['nome'];
+$logado = $_SESSION['email'];
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
