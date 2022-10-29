@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d9b4a74f;
+}
+/* ------------------------------Nav bar do index------------------------------ */
+nav{
+    background-color: #9b6b59;
+    color: white;
+    text-align: center;
+    height: 110px;
+}
+
+nav>h3{
+    padding-top: 30px;    
+}
+
+nav>a{
+    text-align: right;
+}
+
+nav .span-links{
+    display: flex;
+    justify-content: end;
+    margin: 0 2rem;
+}
+
+nav .span-links a{
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 2rem;
+}
+
+.link{
+    padding-top: 10px;
+}
+
+a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 2rem;
+    padding: 5px;
+}
+
+a:hover{
+    background-color: #d9b4a74f;
+}
+
+.contend{
+    display: flex; 
+    margin:auto;
+}
+/*  ------------------------------Pagina cadastro.php------------------------------ */
+.cadastro>h3{
+    padding-bottom: 15px;
+}
+.cadastro{
+    width: 100%; 
+    max-width: 275px;
+    height: 430px; 
+    padding: 10px;
+    margin: 15vh auto;
+    background-color: #9b6b59;
+    border-radius: 20px;
+}
+.alerta{
+    color: #ff0000e8;
+    text-align: center;
+    margin-top: auto;
+}
+
+/* ------------------------------Pagina login.php------------------------------ */
+
+.form-login>h3{
+    padding-bottom: 15px;
+}
+.form-login{
+     width: 100%; 
+     max-width: 275px;
+     height: 290px; 
+     padding: 15px;
+     margin: 20vh auto;
+     background-color: #9b6b59;
+     border-radius: 20px;
+}
+.form{
+    display: flex; 
+    flex-direction: column;
+}
+/* ------------------------------Input geral------------------------------ */
+.field{
+    outline: none;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 5px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+textarea{
+    height: 150px;
+}
+
+h3{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+/* ------------------------------Botão de submit geral------------------------------ */
+input[type=submit]{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 5px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+input[type=submit]:hover{
+    transform: scale(0.96)
+}
+
+
