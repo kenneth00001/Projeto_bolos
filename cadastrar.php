@@ -11,7 +11,6 @@
     <title>Bem-Vindo</title>
 </head>
 <body>
-    
 <section class="content">
 
 <div class="cadastro">
@@ -19,7 +18,7 @@
     <form class="form" method="post" action="cadastrar-logica.php"><!-- Action tem a função de eviar dados -->
         <input class="field" type="text" name="nome" placeholder="Nome completo" maxlength="50">
         <input class="field" type="email" name="email" placeholder="email" maxlength="40">
-        <input class="field" type="number" name="telefone" placeholder="Telefone" maxlength="30">
+        <input class="field" type="tel" name="telefone" placeholder="Telefone" maxlength="30">
         <input class="field" type="password" name="senha" placeholder="senha" maxlength="15">
         <input class="field" type="password" name="senhac" placeholder="Confirmar senha">
         <input type="submit" value="cadastrar" name="submit">
@@ -37,6 +36,5 @@
     </form>
 </div>
 </section>
-</div>
 </body>
 </html>
