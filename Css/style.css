@@ -95,24 +95,23 @@ a:hover{
 
 /* ------------------------------editar_usuario.php------------------------------ */
 
-.form_edit>h3{
-    padding-bottom: 15px;
-}
-
-.form_edit{
+.editar{
     width: 100%; 
     max-width: 275px;
-    height: 430px; 
+    height: 310px; 
     padding: 10px;
     margin: 15vh auto;
     background-color: #9b6b59;
     border-radius: 20px;
 }
-.alerta{
-    color: #ff0000e8;
-    text-align: center;
-    margin-top: auto;
+
+.editar>h3{
+    padding-bottom: 15px;
 }
+
+/* .editar>a{
+    padding-bottom: 10px;
+} */
 
 /* ------------------------------Input geral------------------------------ */
 .field{
@@ -149,4 +148,6 @@ input[type=submit]:hover{
     transform: scale(0.96)
 }
 
-
+.table{
+    background: black;
+}

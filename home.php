@@ -1,5 +1,6 @@
 <?php
 session_start();
+// Verifica se existe um login ativo 
 if((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == true)){
     unset($_SESSION['email']);
     unset($_SESSION['login']);
@@ -21,12 +22,12 @@ $logado = $_SESSION['email'];
 <nav>
 <h3>Bolo é carinho em forma de Comida</h3>
 <div class="link">    
-    <a href="home.php">Home</a>
-    <a href="edita-cadastro.php">editar</a>
+    <a href="listar.php">Lista de Usuarios</a>
     <a href="doces.php">Doces</a>
     <a href="fale-conosco.php">Fale conosco</a>
 </div>
 <span class="span-links">
 <a href="sair.php">Sair</a>
+</nav>
 </body>
 </html>

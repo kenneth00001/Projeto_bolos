@@ -21,7 +21,6 @@ $logado = $_SESSION['email'];
 <h3>Bolo é carinho em forma de Comida</h3>
 <div class="link">    
     <a href="home.php">Home</a>
-    <a href="">Bolos</a>
     <a href="doces.php">Doces</a>
     <a href="fale-conosco.php">Fale conosco</a>
 </div>
